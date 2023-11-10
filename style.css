@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./eric-tompkins-Ph8m2QHF_w8-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    height: 100vh;
+    margin: 0;
+}
+
+.banner {
+    background-color: rgba(240, 255, 255, .4);
+    width: 100%;
+    text-align: center;;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 4rem;
+}
+
+p {
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+.countdown-container {
+    display: flex;
+    justify-content: center;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.5rem;
+}
